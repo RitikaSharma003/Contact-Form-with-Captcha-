@@ -1,0 +1,98 @@
+body{
+    background-image:linear-gradient(rgb(208, 56, 56),rgb(51, 117, 216));
+
+}
+.container{
+    border:2px solid black;
+    MARGIN:15PX 400px;
+    width:800px;
+    height:1100px;
+    border-radius:6px;
+    background-color:white;
+
+
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+}
+
+
+
+input[type=password]
+{
+  width: 100%;
+  padding: 8px;
+}
+
+
+
+
+
+
+input[type=password] {
+  width: 100%;
+  padding: 8px;
+border: 2px solid #eeeeee;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 8px;
+margin-bottom: 14px;
+resize: vertical;
+font-size :18px;
+
+}
+
+
+
+  input[type=text],
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+  border: 2px solid #eeeeee;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 14px;
+  resize: vertical;
+  font-size :18px;
+
+}
+input,textarea ,.states{
+  background-color:rgb(230, 230, 247);
+  color:black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.states{
+    background-color:rgb(230, 230, 247);
+  color:black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.submit{
+    color:black;
+    border:2px solid  #0dc3ab; 
+    border-radius: 5px;
+    padding: 10px;
+}
+.submit:hover {
+  background-color: #79d1dd;
+justify-content:center;
+margin:auto;
+text-align:center;
+
+}
+
+
+  

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containers">
+    <div class="container">
+    <h1 style="text-align:center">Contact Form</h1>
+
+  <form  id="myForm"  class="Form">
+    <label for="fname" class="Name" style=" font-size :18px;font-weight:600; margin:3px">Fname</label>
+    <input type="text" id="fname" name="name" placeholder="Type your first name..">
+    <label for="lname" style=" font-size :18px; margin:3px;font-weight:600">Mname</label>
+    <input type="text" id="mname" name="surname" placeholder="Type your middle name..">
+    <label for="lname" style=" font-size :18px;margin:3px;font-weight:600">Lname</label>
+    <input type="text" id="lname" name="surname" placeholder="Type your last name..">
+    <label for="mail" style=" font-size :18px;margin:3px;font-weight:600">E-mail Address</label>
+    <input type="text" id="mail" name="e-mail" placeholder="Type your e-mail.." style=" color:black;">
+    <label for="Password" style=" font-size :18px; margin:3px; font-weight:600";>Password</label>
+    <input type="password" id="password" name="surname" placeholder="Type your middle name..">
+
+    <label for="states" style=" font-size :18px;margin:3px; font-weight:600";>States</label>
+    <select class="states" name="states">
+      <option value="Uttar Pradesh" style=" color:black;">Uttar Pradesh</option>
+      <option value="Uttarakhand">Uttarakhand</option>
+      <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+      <option value="Andhra Pradesh">Andhra Pradesh</option>
+    </select>
+    <label for="message"style=" font-size :18px;margin:3px;font-weight:600">Message</label>
+    <textarea id="message" name="message" placeholder="Type your message.." style="height: 200px;"></textarea>
+    <label style="font-size:18px;font-weight:600">Enter Captcha </label>
+    <div class="from-row">
+      <div class="form-group">
+      <input type="text" class="form-control" readonly id="capt" style="background-color:rgb(182, 178, 178);">
+      </div>
+
+      <div class="form-group">
+        <input type="text" class="form-control" id="textinput">
+       
+      </div>
+    </div>
+    <h4 style="margin-top:1px ;margin-left:4px; justify-content:center">Captcha is not visible <img src="image1.jpg" width="45px"  height="24px"margin-top="7px" margin-left="3px" onclick="cap()"></h4>
+
+    <button onclick="validcap()" class="submit"  type="Submit"style="font-size :18px; margin:10px; ">Submit</button>
+  </form>
+  
+ 
+
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
